@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+.head{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.head #links{
+    margin-right: 30px;
+    border-spacing: 30px;
+    display: flex;
+}
+
+.head #links a{
+    margin-left: 30px;
+    font-size: small;
+    color: rgba(0, 0, 0, 87);
+    text-decoration: none;
+}
+
+.head #links a:hover{
+    border-bottom: 1px solid rgba(0, 0, 0, 87);
+}
+
+#mainsection{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainsection #inputfield{
+    border: 1px solid #d1efd5;
+    height: 40px;
+    border-radius: 24px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    width: 580px;
+}
+
+#mainsection #inputfield #search{
+    color: darkgray;
+}
+
+#mainsection #inputfield:hover{
+    box-shadow: 0 0 3px grey;
+}
+
+#mainsection #inputfield input{
+    width: 100%;
+    border: none;
+    box-shadow: none !important; 
+    outline: none !important;
+    margin-left: 7px;
+    font-size: 16px;
+}
+
+#mainsection #button{
+    display: flex;
+    justify-content: center;
+}
+
+#mainsection #button input{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 5px;
+    margin: 20px 20px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.advancedhead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: small;
+}
+
+.smallgoogle{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.smallgoogle img{
+    width: 70px;
+    height: auto;
+}
+
+.advancedsubhead{
+    border-bottom: 1px solid #ebebeb;
+}
+
+.advancedsubhead h3{
+    color: #d93025;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+.firstinputtop .textheading{
+    font-size: 20px;
+    min-width: 180px;
+    width: 15%;
+    font-weight: 500;
+    color: rgb(15, 1, 31);
+}
+
+
+.firstinput{
+    display: flex;
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+.firstinput .text{
+    width: 200px;
+    font-size: 13px;
+}
+
+.firstinput .input-field{
+    min-width: 170px;
+    width: 50%;
+}
+
+.firstinput .input-field input{
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    font-size: 15px;
+    height: 25px;
+    padding: 1px 10px;
+    width: 100%;
+}
+
